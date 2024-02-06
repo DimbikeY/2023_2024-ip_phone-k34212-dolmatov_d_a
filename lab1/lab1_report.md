@@ -21,6 +21,11 @@ Switch -> Switch через mode trunk encapsulation vlan NN,YN,ZN...
 Результаты связности представлены ниже:  
 Вид схемы: ![Вид схемы](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab1/screens/Снимок%20экрана%202024-02-06%20212229.png)  
 
+Связность VLAN10:  ![VLAN10](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab1/screens/Снимок%20экрана%202024-02-06%20212319.png)  
+Связность VLAN20:  ![VLAN20](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab1/screens/Снимок%20экрана%202024-02-06%20212334.png)  
 
 ##### Особенность
 Нужно задавать VLAN на всех L2 switch, через которых будут пробегаться пакеты VLANов: **Switch 6 & Switch 7** имеют в show vlan и 10, и 20 метки VLAN 
+
+#### 2-ая часть:
+
