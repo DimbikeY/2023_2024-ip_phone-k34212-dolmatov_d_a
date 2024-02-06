@@ -5,7 +5,7 @@
 ### To be shortly, just navigate and decide which one you would like to see, click on it and explore
 
 In general, we have 4 labs:
-* ["Базовая настройка ip-телефонов в среде Сisco packet tracer"](https://itmo-ict-faculty.github.io/ip-telephony/education/labs2023_2024/lab1/lab1/)  
+* [Базовая настройка ip-телефонов в среде Сisco packet tracer](https://itmo-ict-faculty.github.io/ip-telephony/education/labs2023_2024/lab1/lab1/)  
 * [Конфигурация voip в среде Сisco packet tracer](https://itmo-ict-faculty.github.io/ip-telephony/education/labs2023_2024/lab2/lab2/)  
 * [Формирование класса ограничения звонков](https://itmo-ict-faculty.github.io/ip-telephony/education/labs2023_2024/lab3/lab3/)  
 * [Построение сети ip-телефонии между удаленными маршрутизаторами](https://itmo-ict-faculty.github.io/ip-telephony/education/labs2023_2024/lab4/lab4/)  
