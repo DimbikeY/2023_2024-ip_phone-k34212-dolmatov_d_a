@@ -15,3 +15,12 @@ Date of finished: --.02.2023
 Изучить рабочую среду Cisco Packet Tracer, ознакомить- ся с интерфейсами основных устройств, типами кабелей, научиться собирать топологию. Изучить построение сети IP-телефонии с помощью маршрутизатора, коммутатора и IP телефонов Cisco 7960 в среде Packet tracer  
 ### Ход работы  
 #### 1-ая часть  
+Выполним базовую настройку L2 switch to PCs. PC -> Switch через mode access vlan NN  
+Switch -> Switch через mode trunk encapsulation vlan NN,YN,ZN...  
+
+Результаты связности представлены ниже:  
+Вид схемы: ![Вид схемы](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab1/screens/Снимок%20экрана%202024-02-06%20212229.png)  
+
+
+##### Особенность
+Нужно задавать VLAN на всех L2 switch, через которых будут пробегаться пакеты VLANов: **Switch 6 & Switch 7** имеют в show vlan и 10, и 20 метки VLAN 
