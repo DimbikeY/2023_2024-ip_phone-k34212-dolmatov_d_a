@@ -45,5 +45,25 @@ Date of finished: --.02.2023
 > button 1:1 (заранее должно быть DHCP соединение с оконечными устройствами)
 > и так делаем с каждым телефоном, меняя button 1:N, где N - номер устройства
 В результате выполнения данной лабораторной работы были изучены основы подключения ip-телефоном (не забываем команду switchport voice vlan NN), а также изучен материал по использованию роутера с DHCP сервером, который одновременно является сервером TFTP для корректной связности IP-телефонов.
->  
+
+Отключение поиска по DNS: ![Поиск](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-19%20234904.png)  
+
+Установка пароля на сетевые устройства: ![Пароль](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-19%20235152.png)  
+
+Проверка связности: ![Связность](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-19%20235847.png)  
+
+### 2-ая часть
+В принципе, часть этой работы схожа с прошлой. Только вместо этого у нас добавляется ещё один VLAN: это компьютеры  
+Сама конфигурация особо не отличилась: на коммутаторе добавим 
+> switchport mode access
+> switchport access vlan 10 (PC)
+> switchport voice vlan 20 (Voice)
+Также установим DHCP Pool как для ПК, так и для телефонов
+Остальная конфигурация не изменяется
+Проверка работы DHCP: ![DHCP](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-20%20004046.png)
+
+Проверка связности: ![Связность](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-19%20235847.png)  
+
+Схема: ![Схема](https://github.com/DimbikeY/2023_2024-ip_telephony-k34212-dolmatov_d_a/blob/main/lab2/screens/Снимок%20экрана%202024-02-20%20003238.png)  
+
 
